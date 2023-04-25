@@ -2,7 +2,7 @@
 메서드 호출을 줄이기 위해 프로세스 간 데이터를 전달하는 객체<br>
 getter, setter로만 이뤄짐.<br>
 JavaBeans의 **Java Bean**(Bean)의 형태에 가까움(**Spring Bean, POJO와 다름!**)<br>
-무기력한 데이터 덩어리
+[무기력한 데이터 덩어리](https://martinfowler.com/bliki/AnemicDomainModel.html)
 
 Remote Facade와 같은 원격 인터페이스는 호출 비용이 많이 들기 때문에 많은 매개변수를 이용하여 해결 할 수도 있다.<br>
 &nbsp; 하지만 프로그래밍이 어렵고 Java에서는 불가능하다. (Java는 단일 값만 반환하기 때문)<vr>
