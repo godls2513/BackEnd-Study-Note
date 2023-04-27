@@ -51,3 +51,5 @@ JSON 기본 형태<br>
 Java에서는 Map이 이와 유사하지만, 스키마 관리 및 타입 안정성을 위해 DTO를 활용한다.
 - 생성 : DTO &rarr; 변환기 &rarr; JSON 문자열
 - 해석 : JSON 문자열 &rarr; 변환기 &rarr; DTO
+
+[JSON 참고사이트](https://en.wikipedia.org/wiki/JSON)
