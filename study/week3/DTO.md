@@ -1,4 +1,4 @@
-## [DTO (Data Transfer Object)](https://martinfowler.com/eaaCatalog/dataTransferObject.html)
+# [DTO (Data Transfer Object)](https://martinfowler.com/eaaCatalog/dataTransferObject.html)
 메서드 호출을 줄이기 위해 프로세스 간 데이터를 전달하는 객체<br>
 getter, setter로만 이뤄짐.<br>
 JavaBeans의 **Java Bean**(Bean)의 형태에 가까움(**Spring Bean, POJO와 다름!**)<br>
