@@ -1,7 +1,7 @@
 # 직렬화
 ## 직렬화(Serialization)
 - 데이터 저장 영역 내 표시되는 코드와 데이터 객체를 바이트 코드로 변환하여 객체의 상태를 쉽게 전송할 수 있는 형태로 저장하는 프로세스<br><br>
-직렬화 프로세스
+직렬화 프로세스<br>
 ![serialization](https://hazelcast.com/wp-content/uploads/2021/12/serialization-diagram-800x364-1.png)
 <br><br>
 - 객체를 DB에 저장하거나 네트워크로 전송하기 위해서는 객체를 복구할 수 있도록 데이터화 하는 것이 필요하다.
@@ -16,7 +16,7 @@
 객체를 다시 생성하여 프로그래밍 언어의 기본 구조로 데이터를 더 쉽게 읽고 수정할 수 있도록 한다.
 
 
-역질렬화 프로세스
+역질렬화 프로세스<br>
 ![Deserialization](https://hazelcast.com/wp-content/uploads/2021/12/serialization-deserialization-diagram-800x318-1.png)
 <br>
 
