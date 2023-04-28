@@ -36,10 +36,12 @@ IPC(Inter-Process Communication)
   + HTTP 같은 고수준 프로토콜을 활용하면 어느 정도 정해진 틀이 있기 때문에 상대적으로 쉬워진다.
   + REST를 활용하면 RPC(SOAP의 일반적인 활용)가 아닌 Resource에 대한 CRUD로 정리해야 함.
 - Java에선 RMI(Remote Method Invocation)란 기술을 제공한다.
-  + [RPC(Remote Process Call)](https://ko.wikipedia.org/wiki/%EC%9B%90%EA%B2%A9_%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80_%ED%98%B8%EC%B6%9C)<br> 
-    - 별도의 원격제어를 위한 코딩없이 다른 주소에 있는 함수나 프로시저를 실행할 수 있게하는 프로세스 간의 통신기술
-  + [RMI(Remote Method Invocation)](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EC%9B%90%EA%B2%A9_%ED%95%A8%EC%88%98_%ED%98%B8%EC%B6%9C)<br>
-    + 자바에서 각 객체간, 컴퓨터간 메서드를 호출할 수 있게 해주는 기술
+
+[RPC(Remote Process Call)](https://ko.wikipedia.org/wiki/%EC%9B%90%EA%B2%A9_%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80_%ED%98%B8%EC%B6%9C)<br> 
+  - 별도의 원격제어를 위한 코딩없이 다른 주소에 있는 함수나 프로시저를 실행할 수 있게하는 프로세스 간의 통신기술
+
+[RMI(Remote Method Invocation)](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EC%9B%90%EA%B2%A9_%ED%95%A8%EC%88%98_%ED%98%B8%EC%B6%9C)<br>
+  - 자바에서 각 객체간, 컴퓨터간 메서드를 호출할 수 있게 해주는 기술
 
 REST에서는 표현을 다뤄야하고, 데이터를 담는 거 외에 아무 것도 하지 않은 제대로 된 객체라고 볼 수 없는 특별한 객체(DTO)를 사용하게 된다.<br><br>
 SOAP : SOAP(Simple Object Access Protocol)은 일반적으로 널리 알려진 HTTP, HTTPS, SMTP 등을 통해 XML 기반의 메시지를 컴퓨터 네트워크 상에서 교환하는 프로토콜이다. 
@@ -49,8 +51,8 @@ SOAP : SOAP(Simple Object Access Protocol)은 일반적으로 널리 알려진 H
 **Tier간 통신**
 <br>
 - 프론트와 백엔드 사이
-  + DTO는 직렬화(마샬링)을 통해서 전송할 수 있다.
-  + 직렬화를 하는 기술의 선택이 필요하다. &rarr; XML, JSON
+  + DTO는 [직렬화(마샬링)](/backend-survival/study/week3/Serialization.md)을 통해서 전송할 수 있다.
+  + 직렬화를 하는 기술의 선택이 필요하다. &rarr; XML, JSON<br><br>
 - 백엔드와 DB사이
   + VO(Value Object) 구별하여 Transfer Object로 정정. 아직도 SI에서는 VO와 DTO를 비슷한 의미로 사용. (DAO와 VO를 같이 사용한다면 대부분 여기에 속함).
 
