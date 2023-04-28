@@ -1,4 +1,6 @@
-# [DTO (Data Transfer Object)](https://martinfowler.com/eaaCatalog/dataTransferObject.html)
+# DTO 
+
+[DTO (Data Transfer Object)](https://martinfowler.com/eaaCatalog/dataTransferObject.html)
 
 메서드 호출을 줄이기 위해 프로세스 간 데이터를 전달하는 객체<br>
 getter, setter로만 이뤄짐.<br>
