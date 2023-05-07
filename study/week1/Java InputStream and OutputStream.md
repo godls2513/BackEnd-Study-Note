@@ -54,6 +54,71 @@ public class InputStreamDemo {
     }
 }
 ```
-결과
-![](/study/week1/image/InputStreamResult.jpg)
+결과<br>
+<img src="/Users/johaein/git-training/backend-survival/study/week1/image/InputStreamResult.jpg" width="70%" height="70%"/>
 
+--- 
+
+### [Java OutputStream](https://docs.oracle.com/javase/7/docs/api/java/io/OutputStream.html)
+
+```java
+public abstract class OutputStream
+extends Object
+implements Closeable, Flushable
+```
+
+OutputStream 클래스는 추상클래스로 바이트의 출력 스트림을 나타내는 모든 클래스의 슈퍼클래스이다. 출력 스트림은 출력 바이트를 받아 일부 싱크에 보낸다.<br>
+
+출력 스트림의 서브 클래스를 정의해야 하는 애플리케이션은 항상 적어도 1바이트의 출력을 쓰는 메서드를 제공해야 한다.<br>
+
+대표적인 서브클래스들은 다음과 같다.
+> ByteArrayOutputStream, FileOutputStream, FilterOutputStream, ObjectOutputStream, OutputStream, PipedOutputStream
+
+<br>
+
+### OutputStream의 여러가지 메서드
+>write() - 지정된 바이트를 출력 스트림에 씁니다.<br>
+write(byte[] array) - 지정된 배열의 바이트를 출력 스트림에 씁니다.<br>
+flush() - 출력 스트림에 있는 모든 데이터를 대상에 쓰도록 강제합니다.<br>
+close() - 출력 스트림을 닫습니다.
+
+<br>
+
+### FileOutputStream을 이용한 OutputStream 예제
+```java
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class InputStreamDemo {
+    public static void main(String[] args) throws IOException {
+        String path = "app/src/main/resources/test.txt";
+        byte[] bytes = new byte[100]; // 크기가 100인 바이트 배열을 선언
+
+        FileInputStream fileInputStream = new FileInputStream(path);
+        System.out.println("파일에서 사용 가능한 바이트 수 : " + fileInputStream.available());
+
+        // 입력스트림에서 바이트 읽기
+        fileInputStream.read(bytes);
+        System.out.println("데이터 읽기 : ");
+
+        // 바이트 배열을 문자열로 변환
+        String data = new String(bytes);
+        System.out.println(data);
+
+        // 입력 스트림 닫기
+        fileInputStream.close();
+
+
+    }
+}
+```
+
+결과
+<br>
+<img src="/Users/johaein/git-training/backend-survival/study/week1/image/OutputStreamResult.jpg" width="70%" height="70%">
+<br>
+
+test.txt 아래 내용이 채워지는 것을 확인 할 수 있다.
+```
+This is OutputStream Example!!
+```
