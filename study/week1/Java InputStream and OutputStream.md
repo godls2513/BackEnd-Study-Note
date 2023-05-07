@@ -55,7 +55,7 @@ public class InputStreamDemo {
 }
 ```
 결과<br>
-<img src="/Users/johaein/git-training/backend-survival/study/week1/image/InputStreamResult.jpg" width="70%" height="70%"/>
+![result](/study/week1/image/InputStreamResult.jpg)
 
 --- 
 
@@ -115,8 +115,7 @@ public class InputStreamDemo {
 
 결과
 <br>
-<img src="/Users/johaein/git-training/backend-survival/study/week1/image/OutputStreamResult.jpg" width="70%" height="70%">
-<br>
+![result](/study/week1/image/OutputStreamResult.jpg)
 
 test.txt 아래 내용이 채워지는 것을 확인 할 수 있다.
 ```
