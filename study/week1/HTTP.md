@@ -24,7 +24,7 @@ HTML 문서와 같은 리소스들을 가져올 수 있도록 해주는 프로�
 &nbsp; - 이전 요청의 세션 상태를 유지할 수 있는 특성<br>
 &nbsp; - TCP(전송 제어 프로토콜) 및 FTP(파일 전송 프로토콜)가 여기에 해당<br>
 
-### HTTP 프로토콜에서 상태정보를 기억시켜주는 [HTTP Cookie](https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies_)
+### HTTP 프로토콜에서 상태정보를 기억시켜주는 [HTTP Cookie](https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies)
 &nbsp; - 사용자가 웹사이트를 탐색하는 동안 웹 서버에 의해 생성되고 사용자의 웹 브라우저에 의해 사용자의 컴퓨터 또는 기타 장치에 저장되는 작은 데이터 블록,조각<br>
 &nbsp; - 브라우저는 데이터 조각들을 저장했다가 동일한 요청이 들어오면 저장된 쿠키를 사용한다.<br>
 &nbsp; - 두 요청이 동일한 브라우저에서 들어왔는지 판단할 때 사용<br>
