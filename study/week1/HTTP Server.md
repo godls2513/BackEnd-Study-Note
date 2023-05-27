@@ -75,8 +75,10 @@ ServerSocket.close();
 
 ### Blocking & Non-Blocking
 
-I/O 에서는 기다리는 것을 Blocking 이라 한다. 위 예제에서 accept()는 Blocking 메서드이다. 클라이언트가 서버에 연결하기 전까지 차단한다.<br>
+I/O 에서는 기다리는 것을 Blocking 이라 한다. 위 예제에서 accept()는 Blocking 메서드이다. 클라이언트가 서버에 연결하기 전까지 차단한다<br>
+항상 연결을 기다리기까지 다른 작업을 차단한다면 비효율적이다. 그래서 필요한 것이 Non-Blocking 이다.<br><br>
 Non-Blocking 은 클라이언트가 요청을 하지만 요청한 작업이 끝날 때 까지 기다리지 않는다. 그 사이에 다른 작업을 할수가 있다.<br>
+
 [Blocking vs Non-Blocking 참고자료](https://www.javatpoint.com/java-nio-vs-input-output)
 
 
