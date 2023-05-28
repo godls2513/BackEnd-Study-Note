@@ -24,23 +24,23 @@ public interface MyInterface{
 
 ### 람다표현식의 문법
 
-파라미터가 1개인 경우
+1. 파라미터가 1개인 경우
 ```java
 parameter -> expression
 ```
-파라미터가 2개 이상인 경우, 괄호로 묶어준다<br>
+2. 파라미터가 2개 이상인 경우, 괄호로 묶어준다
 ```java
 (parameter1, parameter2) -> expression
 ```
 expression은 즉시 값을 반환해야해서 변수의 할당 또는 if, for문을 사용할 수가 없다.
 
-보다 복잡한 연산을 사용하는 경우 중괄호와 함께 코드 블럭을 사용하면된다.
+3. 보다 복잡한 연산을 사용하는 경우 중괄호와 함께 코드 블럭을 사용하면된다.
 ```java
 (parameter1, parameter2) -> { code block }
 ```
 ### 람다표현식의 사용 예제
 
-파라미터가 1개인 람다식 예제
+1. 파라미터가 1개인 람다식 예제
 ```java
 import java.util.ArrayList;
 
@@ -60,7 +60,7 @@ public class LambdaEx {
 
 ```
 
-파라미터가 2개 이상인 람다식 예제
+2. 파라미터가 2개 이상인 람다식 예제
 ```java
 @FunctionalInterface
 interface Addable {
