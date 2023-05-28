@@ -8,6 +8,8 @@
   * [Java try-with-resources](/study/week1/try-with-resources.md)
   * [HTTP Server](/study/week1/HTTP%20Server.md)
   * [Java HTTP Server](/study/week1/JAVA%20HTTP%20Server.md)
+  * [Java Lambda Expressions](/study/week1/Java%20Lambda%20Expressions.md)
+  
 - **Week2** 
 - **Week3**
   * [DTO](/study/week3/DTO.md)
