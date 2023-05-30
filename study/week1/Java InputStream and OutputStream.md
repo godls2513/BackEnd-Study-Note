@@ -86,29 +86,26 @@ close() - 출력 스트림을 닫습니다.
 
 ### FileOutputStream을 이용한 OutputStream 예제
 ```java
-import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class InputStreamDemo {
+public class OutputStreamDemo {
     public static void main(String[] args) throws IOException {
         String path = "app/src/main/resources/test.txt";
-        byte[] bytes = new byte[100]; // 크기가 100인 바이트 배열을 선언
+        String data = "This is OutputStream Example!!";
 
-        FileInputStream fileInputStream = new FileInputStream(path);
-        System.out.println("파일에서 사용 가능한 바이트 수 : " + fileInputStream.available());
+        FileOutputStream fileOutputStream = new FileOutputStream(path);
 
-        // 입력스트림에서 바이트 읽기
-        fileInputStream.read(bytes);
-        System.out.println("데이터 읽기 : ");
+        // 문자열을 바이트로 변환
+        byte[] bytes = data.getBytes();
 
-        // 바이트 배열을 문자열로 변환
-        String data = new String(bytes);
+        // 출력 스트림에 데이터 쓰기
+        fileOutputStream.write(bytes);
+        System.out.println("데이터가 파일에 기록");
         System.out.println(data);
 
-        // 입력 스트림 닫기
-        fileInputStream.close();
-
-
+        // 출력 스트림 닫기
+        fileOutputStream.close();
     }
 }
 ```

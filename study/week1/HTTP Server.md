@@ -12,7 +12,7 @@ ServerSocket은 클라이언트/서버 소켓 연결의 서버 측에 대한 시
 ### ServerSocket 를 사용하여 서버에 연결하기
 
 1. 자바에서 서버는 클라이언트의 요청을 받기 위해 ServerSocket 클래스를 사용한다.
-그리고 소켓 프로그래밍을 하기 위해서는 서버의 IP주소와 포트번호가 필요하다. 여기서는 본인 PC에 접속할 것이기 때문에 포트번호만 사용한다. ]
+그리고 소켓 프로그래밍을 하기 위해서는 서버의 IP주소와 포트번호가 필요하다. 여기서는 본인 PC에 접속할 것이기 때문에 포트번호만 사용한다.
 ```java
 int port = 8080;
 ServerSocket ServerSocket = new ServerSocket(port);
@@ -37,7 +37,7 @@ charBuffer.flip();
 4. response<br>
 서버 입장에서 요청을 받았으면 응답을 해줘야한다. 서버는 응답 메세지를 만들어서 전송 해준다.
 ```java
-// 1. Socket에서 getOutputStream()을 가져와서 Writer에 저장
+// 1. Socket에서 OutputStream()을 가져와서 Writer에 저장
 Writer writer = new OutputStreamReader(socket.getOutputStream());
 // 2. 응답 body를 만들어서 byte[] 배열로 저장
             String body = """
