@@ -11,6 +11,7 @@
   * [Java Lambda Expressions](/study/week1/Java%20Lambda%20Expressions.md)
   * [Spring Web MVC](/study/week1/Spring%20Web%20MVC.md)
 - **Week2** 
+  * [REST API](study/week2/REST API.md)
 - **Week3**
   * [DTO](/study/week3/DTO.md)
   * [직렬화](/study/week3/Serialization.md)
