@@ -56,30 +56,8 @@ GET &rarr; read<br>
 
 ### [HTTP Status Code](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
 HTTP 요청이 성공적으로 완료되었는지 알려주는 상태코드<br>
-1xx : 정보 응답 &rarr; 우리가 직접쓴느 일은 드뭄<br>
+1xx : 정보 응답 &rarr; 우리가 직접 사용하는 일은 드뭄<br>
 2xx : 성공 응답 &Rightarrow; 200 OK, 201 Created, 204 No Content<br>
 3xx : 리다이렉션 메세지<br>
 4xx : 클라이언트 에러 응답<br>
 5xx : 서버 에러 응답<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
