@@ -12,6 +12,7 @@
   * [Spring Web MVC](/study/week1/Spring%20Web%20MVC.md)
 - **Week2** 
   * [REST API](/study/week2/REST%20API.md)
+  * [URI & MIME Type](/study/week2/URI%20%26%20MIME%20type.md)
 - **Week3**
   * [DTO](/study/week3/DTO.md)
   * [직렬화](/study/week3/Serialization.md)
