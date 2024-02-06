@@ -14,6 +14,7 @@
   * [REST API](/study/2.%20REST%20API/REST%20API.md)
   * [URI & MIME Type](/study/2.%20REST%20API/URI%20%26%20MIME%20type.md)
   * [Collection Pattern](/study/2.%20REST%20API/Collection%20Pattern.md)
-- **DTO&JSON&CORS**
+  * [CRUD & CQS & HTTP Method](/study/2.%20REST%20API/CRUD%26CQS%26HTTP%20Method.md)
+- **DTO & JSON & CORS**
   * [DTO](/study/3.%20DTO%26JSON%26CORS/DTO.md)
   * [직렬화](/study/3.%20DTO%26JSON%26CORS/Serialization.md)
