@@ -19,7 +19,11 @@ URL과 URN 둘 다 리소스를 식별하는 방법이지만 거의 대부분 UR
  :80 -> 포트<br>
  /path/to/myfile.html -> 리소스의 경로<br>
 ?key1=value1&key2=value2 -> 쿼리로 웹서버에 제공되는 추가 매개변수 입니다. ?기호로 시작하고 &기호로 구분된 키=값 쌍의 목록이다.<br>
-#SomewhereInTheDocument -> 프레그먼트로 일종의 북마크라고 이해하자. #뒤의 부분은 요청과 함께 서버로 전송되지 않는다.<br>
+#SomewhereInTheDocument -> 프레그먼트로 일종의 북마크라고 이해하자. #뒤의 부분은 요청과 함께 서버로 전송되지 않는다.<br><br>
+
+참고<br>
+[MDN : URI](https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web)
+
 
 ### MIME Type (Content Type, Media Type)
 
