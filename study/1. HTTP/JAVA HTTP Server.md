@@ -78,6 +78,6 @@ httpServer.start();
 
 **결과**
 
-![result](/study/week1/image/JavaHttpServer.jpg)
+![result](/study/1.%20HTTP/image/JavaHttpServer.jpg)
 
 

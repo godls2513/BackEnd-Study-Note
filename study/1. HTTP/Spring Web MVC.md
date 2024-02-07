@@ -11,13 +11,13 @@ Spring Boot는 프로덕션에 바로 사용할 수 있는 Spring 기반 애플�
 ### Web Server
 : 클라이언트의 요청을 받아서 정적 콘텐츠(HTML, 파일, 이미지, 동영상) 등을 클라이언트에게 응답하는 서버 또는 컴퓨터<br>
 Web Server는 HTTP 요청과 응답만을 처리한다.<br><br>
-![Web Server](/study/week1/image/WebServer.jpg)
+![Web Server](/study/1.%20HTTP/image/WebServer.jpg)
 
 ### Application Server
 : Application Server는 동적인 콘텐츠(비즈니스 로직, 애플리케이션에서 제공하는 특수 기능을 제공하기 위해 데이터를 변환)를 처리하는 서버 또는 컴퓨터<br>
 
 Application Server는 Web Server를 내포하고 있다. 이로 인해 현재는 웹서버와 어플리케이션 서버 간의 경계가 모호하다는 지적도 있다.<br><br>
-![Application Server](/study/week1/image/ApplicationServer.png)
+![Application Server](/study/1.%20HTTP/image/ApplicationServer.png)
 
 **Web Server와 Application Server의 차이점**
 
