@@ -55,11 +55,8 @@ Controller : 사용자의 요청에 의하여 Model에게서 데이터를 가져
 
 **참고자료**<br>
 https://developer.mozilla.org/en-US/docs/Glossary/MVC#model_view_controller_example<br>
-
 https://www.geeksforgeeks.org/mvc-framework-introduction/<br>
-
 https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm<br>
-
 https://towardsdatascience.com/everything-you-need-to-know-about-mvc-architecture-3c827930b4c1<br>
 
 
