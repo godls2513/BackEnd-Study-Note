@@ -1,4 +1,4 @@
-# 학습노트
+# 백엔드 학습노트
 
 - **1.HTTP**
   * [HTTP의 이해](/study/1.%20HTTP/HTTP.md)
