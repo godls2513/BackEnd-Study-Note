@@ -5,7 +5,7 @@
 - 메서드 호출을 줄이기 위해 프로세스 간 데이터를 전달하는 객체<br>
 - getter, setter로만 이뤄짐.<br>
 - JavaBeans의 **Java Bean**(Bean)의 형태에 가까움(**Spring Bean, POJO와 다름!**)<br>
-- [무기력한 도메인 모델](https://martinfowler.com/bliki/AnemicDomainModel.html)
+
 
 Remote Facade와 같은 원격 인터페이스는 호출 비용이 많이 들기 때문에 많은 매개변수를 이용하여 해결 할 수도 있다.<br>
 &nbsp; 하지만 프로그래밍이 어렵고 Java에서는 불가능하다. (Java는 단일 값만 반환하기 때문)<vr>
@@ -44,7 +44,11 @@ IPC(Inter-Process Communication)
   - 자바에서 각 객체간, 컴퓨터간 메서드를 호출할 수 있게 해주는 기술
 
 REST에서는 표현을 다뤄야하고, 데이터를 담는 거 외에 아무 것도 하지 않은 제대로 된 객체라고 볼 수 없는 특별한 객체(DTO)를 사용하게 된다.<br><br>
-SOAP : SOAP(Simple Object Access Protocol)은 일반적으로 널리 알려진 HTTP, HTTPS, SMTP 등을 통해 XML 기반의 메시지를 컴퓨터 네트워크 상에서 교환하는 프로토콜이다. 
+SOAP : SOAP(Simple Object Access Protocol)은 일반적으로 널리 알려진 HTTP, HTTPS, SMTP 등을 통해 XML 기반의 메시지를 컴퓨터 네트워크 상에서 교환하는 프로토콜이다.<br> 
+
+[무기력한 도메인 모델](https://martinfowler.com/bliki/AnemicDomainModel.html)<br>
+
+무기력한 도메인 모델은 마틴 파울러가 안티패턴으로 지정한 모델로 아무런 로직을 수행하지 않은 모델로 그냥 데이터 덩어리일뿐이다. 이는 객체지향 설계 원칙을 준수하지 못하여 유지보수성과 확장성을 어렵게 한다.
 
 ---
 
@@ -55,6 +59,11 @@ SOAP : SOAP(Simple Object Access Protocol)은 일반적으로 널리 알려진 H
   + 직렬화를 하는 기술의 선택이 필요하다. &rarr; XML, JSON<br><br>
 - 백엔드와 DB사이
   + VO(Value Object) 구별하여 Transfer Object로 정정. 아직도 SI에서는 VO와 DTO를 비슷한 의미로 사용. (DAO와 VO를 같이 사용한다면 대부분 여기에 속함).
+---
+
+### 자바빈즈(JavaBeans)
+자바빈즈는 자바로 작성된 소프트웨어 컴포넌트로 어디서든 재사용이 가능한 구성요소이다.
+
 
 
 
