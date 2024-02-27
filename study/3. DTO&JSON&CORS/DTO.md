@@ -108,7 +108,20 @@ DAO는 Data Access Object의 약자입니다. DAO는 데이터 지속성 로직(
 
 ### ORM
 
-
+ORM은 Object Relational Mapping의 약자로 관계형 데이터베이스(Relational Database)와 객체지향 프로그래밍(OOP) 언어 사이에 데이터를 변환하는 프로그래밍 기법이다.<br><br>
+관계형 데이터베이스는 SQL이라는 언어로 데이터를 표현한다. SQL은 객체지향 프로그래밍 언어와 호환이 잘 되지 않기 때문에 두 언어 사이의 데이터 교환이 하기 위해서는 ORM과 같은 도구가 필요한 것이다.<br><br>
+다음은 USERS라는 테이블에 대한 SQL 쿼리문이다.
+```
+SELECT name, address, age, phone_number 
+FROM USERS
+WHERE NAME = 'BREAD' 
+```
+위 SQL 쿼리문은 USERS 테이블에서 NAME이 'BREAD'인 사람의 정보를 출력한다. 간단한 쿼리문이긴 하지만 ORM 도구를 사용하면 훨씬 더 간편하게 데이터를 가져올 수 있다.<br>
+```
+users.getByName('BREAD');
+```
+모든 ORM 도구에서 다 똑같은 메서드를 사용하는 건 아니지만 이러한 형식을 사용한다고 보면 된다. 이처럼 ORM은 SQL을 직접 사용하는 것보다 훨신 간편하게 데이터를 다룰 수 있게 된다.<br><br>
+하지만 단점도 존재한다. 복잡한 쿼리를 다뤄야할 때는 ORM 설계가 어렵고 성능문제에 직면할 수도 있다. 
 
 
 
