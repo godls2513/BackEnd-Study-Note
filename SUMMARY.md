@@ -19,3 +19,4 @@
 - **DTO & JSON & CORS**
   * [DTO란 무엇인가](/study/3.%20DTO%26JSON%26CORS/DTO.md)
   * [직렬화에 대해서](/study/3.%20DTO%26JSON%26CORS/Serialization.md)
+  * [Jackson ObjectMapper](/study/3.%20DTO%26JSON%26CORS/ObjectMapper.md)
