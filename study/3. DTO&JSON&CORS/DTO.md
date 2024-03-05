@@ -15,11 +15,11 @@ Remote Facade와 같은 원격 인터페이스는 호출 비용이 많이 든다
 <br><br>
 
 **DTO를 사용하는 주된 이유**<br>
-1. 여러 원격 호출을 일괄로 처리하기 할 수 있다.
+1. 여러 원격 호출을 일괄로 처리하게 할 수 있다.
 2. 데이터 전송을 위한 직렬화 매커니즘을 캡슐화할 수 있다.
 
-### Remote Facade
-작은 메서드를 가진 작은 객체를 사용하여 많은 메서드 호출을 필요하게 한다<br>
+### [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html)
+작은 메서드를 가진 작은 객체의 사용은 많은 메서드 호출을 필요하게 한다<br>
 
 &nbsp; 작은 메서드를 가진 작은 객체<br>
 
