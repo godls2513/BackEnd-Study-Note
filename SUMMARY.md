@@ -24,3 +24,4 @@
   * [옆집에 있는 과자 훔쳐오기 : CORS](/study/3.%20DTO&JSON&CORS/CORS.md)
 - **Layered Architecture**
   * [관심사의 분리](/study/4.%20Layered%20Architecture/SeperationOfConcerns.md)
+  * [전통적인 3계층](/study/4.%20Layered%20Architecture/LayeredArchitecture.md)
